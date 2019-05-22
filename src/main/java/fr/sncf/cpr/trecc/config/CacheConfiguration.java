@@ -45,6 +45,11 @@ public class CacheConfiguration {
             createCache(cm, fr.sncf.cpr.trecc.domain.User.class.getName() + ".authorities");
             createCache(cm, fr.sncf.cpr.trecc.domain.PersistentToken.class.getName());
             createCache(cm, fr.sncf.cpr.trecc.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, fr.sncf.cpr.trecc.domain.Campagne.class.getName());
+            createCache(cm, fr.sncf.cpr.trecc.domain.Courrier.class.getName());
+            createCache(cm, fr.sncf.cpr.trecc.domain.ParamNotif.class.getName());
+            createCache(cm, fr.sncf.cpr.trecc.domain.Trace.class.getName());
+            createCache(cm, fr.sncf.cpr.trecc.domain.TypeDoc.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
